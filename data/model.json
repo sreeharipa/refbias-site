@@ -1,0 +1,160 @@
+{
+ "generated_at": "2026-11-12T18:40:52+00:00",
+ "test_matches": 860,
+ "test_seasons": [
+  2024,
+  2025,
+  2026
+ ],
+ "params": {
+  "half_life": 240,
+  "ridge": 3.0,
+  "w_xg": 0.75,
+  "rho": 0.0,
+  "window_days": 1095
+ },
+ "scorer_params": {
+  "share_half_life": 730.0,
+  "shrink": 8.0,
+  "minutes_window": 20,
+  "minutes_decay": 0.75
+ },
+ "team": [
+  {
+   "model": "Base rates",
+   "wdl": 1.07999,
+   "over25": 0.68859
+  },
+  {
+   "model": "v0 (goals only, report 07)",
+   "wdl": 1.00942,
+   "over25": null
+  },
+  {
+   "model": "v1, goals only",
+   "wdl": 1.00576,
+   "over25": 0.69047
+  },
+  {
+   "model": "v1 (xG + promoted + empty)",
+   "wdl": 1.00004,
+   "over25": 0.68332
+  },
+  {
+   "model": "Market closing odds",
+   "wdl": 0.99175,
+   "over25": 0.68204
+  }
+ ],
+ "scorer": [
+  {
+   "model": "constant rate",
+   "log_loss": 0.17498,
+   "brier": 0.04045,
+   "player_rows": 26733,
+   "scorers_outside_squad": 0.01569
+  },
+  {
+   "model": "position + minutes only",
+   "log_loss": 0.14352,
+   "brier": 0.03714,
+   "player_rows": 26733,
+   "scorers_outside_squad": 0.01569
+  },
+  {
+   "model": "player xG share model",
+   "log_loss": 0.14051,
+   "brier": 0.03672,
+   "player_rows": 26733,
+   "scorers_outside_squad": 0.01569
+  }
+ ],
+ "calibration_v11": [
+  {
+   "p_score": "(0.0, 0.05]",
+   "players": 18899,
+   "predicted": 0.01356,
+   "actual": 0.01328
+  },
+  {
+   "p_score": "(0.05, 0.1]",
+   "players": 4179,
+   "predicted": 0.07039,
+   "actual": 0.05887
+  },
+  {
+   "p_score": "(0.1, 0.2]",
+   "players": 2527,
+   "predicted": 0.13986,
+   "actual": 0.13653
+  },
+  {
+   "p_score": "(0.2, 0.3]",
+   "players": 819,
+   "predicted": 0.23968,
+   "actual": 0.23199
+  },
+  {
+   "p_score": "(0.3, 0.4]",
+   "players": 229,
+   "predicted": 0.33901,
+   "actual": 0.26201
+  },
+  {
+   "p_score": "(0.4, 0.5]",
+   "players": 68,
+   "predicted": 0.44128,
+   "actual": 0.44118
+  },
+  {
+   "p_score": "(0.5, 1.0]",
+   "players": 12,
+   "predicted": 0.55362,
+   "actual": 0.58333
+  }
+ ],
+ "calibration_v1": [
+  {
+   "p_score": "(0.0, 0.05]",
+   "players": 13370,
+   "predicted": 0.01679,
+   "actual": 0.0193
+  },
+  {
+   "p_score": "(0.05, 0.1]",
+   "players": 3749,
+   "predicted": 0.07137,
+   "actual": 0.05762
+  },
+  {
+   "p_score": "(0.1, 0.2]",
+   "players": 2525,
+   "predicted": 0.14106,
+   "actual": 0.13267
+  },
+  {
+   "p_score": "(0.2, 0.3]",
+   "players": 906,
+   "predicted": 0.24135,
+   "actual": 0.21854
+  },
+  {
+   "p_score": "(0.3, 0.4]",
+   "players": 274,
+   "predicted": 0.34059,
+   "actual": 0.27737
+  },
+  {
+   "p_score": "(0.4, 0.5]",
+   "players": 73,
+   "predicted": 0.43734,
+   "actual": 0.35616
+  },
+  {
+   "p_score": "(0.5, 1.0]",
+   "players": 23,
+   "predicted": 0.54842,
+   "actual": 0.6087
+  }
+ ]
+}

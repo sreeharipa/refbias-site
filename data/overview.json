@@ -1,0 +1,22 @@
+{
+ "generated_at": "2026-11-12T18:39:35+00:00",
+ "football_data": {
+  "matches": 2760,
+  "first_season": 2019,
+  "last_season": 2026,
+  "last_match": "2026-11-08",
+  "referees": 42
+ },
+ "fpl": {
+  "player_matches": 48871,
+  "first_season": 2022,
+  "last_season": 2026,
+  "current_gw": 10
+ },
+ "api_football": {
+  "events": 90,
+  "players": 88,
+  "total": 1140,
+  "source": "data-cache"
+ }
+}

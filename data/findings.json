@@ -1,0 +1,448 @@
+{
+ "generated_at": "2026-11-12T18:40:43+00:00",
+ "fouls_goals": {
+  "first_stage": 0.46147,
+  "first_stage_se": 0.04332,
+  "goals_for": -0.0182,
+  "goals_for_se": 0.01661,
+  "total_goals": -0.03639,
+  "total_goals_se": 0.03322,
+  "goals_per_foul": -0.03943,
+  "goals_per_foul_lo": -0.12074,
+  "goals_per_foul_hi": 0.02825,
+  "habit_interaction": -1e-05,
+  "habit_interaction_se": 0.01508
+ },
+ "assignment": {
+  "balance": [
+   {
+    "feature": "big6_one",
+    "coef": -0.047,
+    "se": 0.0369,
+    "t": -1.27363,
+    "p": 0.21406
+   },
+   {
+    "feature": "big6_two",
+    "coef": -0.04019,
+    "se": 0.04108,
+    "t": -0.97847,
+    "p": 0.33686
+   },
+   {
+    "feature": "closeness",
+    "coef": 0.01474,
+    "se": 0.03353,
+    "t": 0.43953,
+    "p": 0.66391
+   },
+   {
+    "feature": "p_over25",
+    "coef": 0.01964,
+    "se": 0.02356,
+    "t": 0.83339,
+    "p": 0.41221
+   },
+   {
+    "feature": "foul_habit",
+    "coef": 0.00964,
+    "se": 0.0192,
+    "t": 0.50194,
+    "p": 0.61994
+   }
+  ],
+  "F": 0.67181,
+  "p": 0.64839,
+  "big_games": {
+   "observed": 0.00358,
+   "null_mean": 0.00093,
+   "p": 0.0,
+   "league_share": 0.07862,
+   "spearman": -0.17768,
+   "referees": 27,
+   "per_ref": [
+    {
+     "referee": "a taylor",
+     "matches": 206,
+     "big_games": 48,
+     "big_share": 0.23301,
+     "mean_closeness": 0.70353,
+     "z": -0.03492
+    },
+    {
+     "referee": "m oliver",
+     "matches": 203,
+     "big_games": 36,
+     "big_share": 0.17734,
+     "mean_closeness": 0.68303,
+     "z": 0.0248
+    },
+    {
+     "referee": "p tierney",
+     "matches": 145,
+     "big_games": 21,
+     "big_share": 0.14483,
+     "mean_closeness": 0.65108,
+     "z": 0.0325
+    },
+    {
+     "referee": "m atkinson",
+     "matches": 84,
+     "big_games": 11,
+     "big_share": 0.13095,
+     "mean_closeness": 0.69354,
+     "z": -0.15319
+    },
+    {
+     "referee": "c kavanagh",
+     "matches": 161,
+     "big_games": 20,
+     "big_share": 0.12422,
+     "mean_closeness": 0.66395,
+     "z": 0.01196
+    },
+    {
+     "referee": "s attwell",
+     "matches": 156,
+     "big_games": 13,
+     "big_share": 0.08333,
+     "mean_closeness": 0.67958,
+     "z": -0.02234
+    },
+    {
+     "referee": "c pawson",
+     "matches": 160,
+     "big_games": 12,
+     "big_share": 0.075,
+     "mean_closeness": 0.6987,
+     "z": 0.06363
+    },
+    {
+     "referee": "j brooks",
+     "matches": 81,
+     "big_games": 6,
+     "big_share": 0.07407,
+     "mean_closeness": 0.67855,
+     "z": 0.00052
+    },
+    {
+     "referee": "s hooper",
+     "matches": 132,
+     "big_games": 9,
+     "big_share": 0.06818,
+     "mean_closeness": 0.68083,
+     "z": -0.0031
+    },
+    {
+     "referee": "m dean",
+     "matches": 78,
+     "big_games": 5,
+     "big_share": 0.0641,
+     "mean_closeness": 0.65409,
+     "z": 0.0245
+    },
+    {
+     "referee": "j moss",
+     "matches": 74,
+     "big_games": 4,
+     "big_share": 0.05405,
+     "mean_closeness": 0.59883,
+     "z": -0.07369
+    },
+    {
+     "referee": "p bankes",
+     "matches": 121,
+     "big_games": 6,
+     "big_share": 0.04959,
+     "mean_closeness": 0.71465,
+     "z": 0.00893
+    }
+   ]
+  },
+  "robustness": [
+   {
+    "model": "no controls",
+    "fouls_drawn": 0.46147,
+    "fouls_drawn_se": 0.04332,
+    "goals_for": -0.0182,
+    "goals_for_se": 0.01661,
+    "total_goals": -0.03639,
+    "total_goals_se": 0.03322
+   },
+   {
+    "model": "+ pre-match controls",
+    "fouls_drawn": 0.45931,
+    "fouls_drawn_se": 0.041,
+    "goals_for": -0.01788,
+    "goals_for_se": 0.01634,
+    "total_goals": -0.03576,
+    "total_goals_se": 0.03268
+   }
+  ]
+ },
+ "crowd": {
+  "ratios": [
+   {
+    "outcome": "fouls",
+    "ratio_crowd": 0.96101,
+    "crowd_lo": 0.94531,
+    "crowd_hi": 0.97696,
+    "ratio_empty": 1.0532,
+    "empty_lo": 1.01366,
+    "empty_hi": 1.09429,
+    "gap_closed": 2.30321,
+    "p_change": 2e-05,
+    "se_change": 0.02126
+   },
+   {
+    "outcome": "yellows",
+    "ratio_crowd": 0.86392,
+    "crowd_lo": 0.83394,
+    "crowd_hi": 0.89497,
+    "ratio_empty": 1.02744,
+    "empty_lo": 0.92937,
+    "empty_hi": 1.13585,
+    "gap_closed": 1.18504,
+    "p_change": 0.00141,
+    "se_change": 0.05428
+   },
+   {
+    "outcome": "cards_per_foul",
+    "ratio_crowd": 0.89912,
+    "crowd_lo": 0.86821,
+    "crowd_hi": 0.93112,
+    "ratio_empty": 0.9776,
+    "empty_lo": 0.88609,
+    "empty_hi": 1.07856,
+    "gap_closed": 0.78695,
+    "p_change": 0.11639,
+    "se_change": 0.0533
+   },
+   {
+    "outcome": "goals_for",
+    "ratio_crowd": 1.20866,
+    "crowd_lo": 1.15304,
+    "crowd_hi": 1.26696,
+    "ratio_empty": 1.05404,
+    "empty_lo": 0.92958,
+    "empty_hi": 1.19517,
+    "gap_closed": 0.72227,
+    "p_change": 0.04579,
+    "se_change": 0.06853
+   },
+   {
+    "outcome": "shots_for",
+    "ratio_crowd": 1.20707,
+    "crowd_lo": 1.1811,
+    "crowd_hi": 1.23362,
+    "ratio_empty": 1.10962,
+    "empty_lo": 1.04792,
+    "empty_hi": 1.17495,
+    "gap_closed": 0.4473,
+    "p_change": 0.00702,
+    "se_change": 0.03122
+   },
+   {
+    "outcome": "sot_for",
+    "ratio_crowd": 1.17878,
+    "crowd_lo": 1.14494,
+    "crowd_hi": 1.21363,
+    "ratio_empty": 1.09464,
+    "empty_lo": 1.01586,
+    "empty_hi": 1.17953,
+    "gap_closed": 0.45024,
+    "p_change": 0.07032,
+    "se_change": 0.04092
+   }
+  ],
+  "raw": [
+   {
+    "crowd": "empty",
+    "matches": 386,
+    "home_win": 0.39119,
+    "away_win": 0.39896,
+    "home_pts": 1.38342,
+    "away_pts": 1.40674,
+    "home_fouls": 11.28497,
+    "away_fouls": 10.74352,
+    "home_yel": 1.43005,
+    "away_yel": 1.39378,
+    "home_goals": 1.38601,
+    "away_goals": 1.31865,
+    "mkt_p_home": 0.41147
+   },
+   {
+    "crowd": "full",
+    "matches": 2288,
+    "home_win": 0.44143,
+    "away_win": 0.31687,
+    "home_pts": 1.566,
+    "away_pts": 1.19231,
+    "home_fouls": 10.56075,
+    "away_fouls": 10.98383,
+    "home_yel": 1.74738,
+    "away_yel": 2.02185,
+    "home_goals": 1.58304,
+    "away_goals": 1.30944,
+    "mkt_p_home": 0.44007
+   }
+  ],
+  "points": {
+   "actual": [
+    {
+     "term": "home_adv",
+     "coef": 0.36992,
+     "se": 0.04834,
+     "t": 7.65314,
+     "p": 0.0
+    },
+    {
+     "term": "empty_change",
+     "coef": -0.37888,
+     "se": 0.13396,
+     "t": -2.82821,
+     "p": 0.00472
+    }
+   ],
+   "market": [
+    {
+     "term": "home_adv",
+     "coef": 0.35659,
+     "se": 0.00647,
+     "t": 55.13406,
+     "p": 0.0
+    },
+    {
+     "term": "empty_change",
+     "coef": -0.14381,
+     "se": 0.01772,
+     "t": -8.11683,
+     "p": 0.0
+    }
+   ]
+  }
+ },
+ "closeness": {
+  "judge": [
+   {
+    "outcome": "fouls_drawn",
+    "strict_effect": 0.45959,
+    "se": 0.04144,
+    "extra_per_sd_closer": -0.01427,
+    "extra_se": 0.04613,
+    "extra_p": 0.75952
+   },
+   {
+    "outcome": "goals_for",
+    "strict_effect": -0.01785,
+    "se": 0.01642,
+    "extra_per_sd_closer": -9e-05,
+    "extra_se": 0.0224,
+    "extra_p": 0.99666
+   },
+   {
+    "outcome": "total_goals",
+    "strict_effect": -0.0357,
+    "se": 0.03284,
+    "extra_per_sd_closer": -0.00019,
+    "extra_se": 0.0448,
+    "extra_p": 0.99666
+   }
+  ],
+  "spread": [
+   {
+    "games": "close",
+    "measure": "resid_home",
+    "matches": 1340,
+    "referees": 26,
+    "true_ref_sd": 0.1379,
+    "p": 0.0255
+   },
+   {
+    "games": "close",
+    "measure": "resid_fav",
+    "matches": 1340,
+    "referees": 26,
+    "true_ref_sd": 0.10361,
+    "p": 0.1195
+   },
+   {
+    "games": "close",
+    "measure": "resid_draw",
+    "matches": 1340,
+    "referees": 26,
+    "true_ref_sd": 0.0,
+    "p": 0.991
+   },
+   {
+    "games": "lopsided",
+    "measure": "resid_home",
+    "matches": 1348,
+    "referees": 27,
+    "true_ref_sd": 0.0,
+    "p": 0.888
+   },
+   {
+    "games": "lopsided",
+    "measure": "resid_fav",
+    "matches": 1348,
+    "referees": 27,
+    "true_ref_sd": 0.0,
+    "p": 0.9655
+   },
+   {
+    "games": "lopsided",
+    "measure": "resid_draw",
+    "matches": 1348,
+    "referees": 27,
+    "true_ref_sd": 0.0,
+    "p": 0.8505
+   },
+   {
+    "games": "all",
+    "measure": "resid_home",
+    "matches": 2708,
+    "referees": 28,
+    "true_ref_sd": 0.0,
+    "p": 0.538
+   },
+   {
+    "games": "all",
+    "measure": "resid_fav",
+    "matches": 2708,
+    "referees": 28,
+    "true_ref_sd": 0.02291,
+    "p": 0.41
+   },
+   {
+    "games": "all",
+    "measure": "resid_draw",
+    "matches": 2708,
+    "referees": 28,
+    "true_ref_sd": 0.0,
+    "p": 0.949
+   }
+  ],
+  "split_half_r": 0.04533,
+  "split_half_refs": 18,
+  "outcome": [
+   {
+    "outcome": "resid_draw",
+    "strict": 0.00257,
+    "strict_se": 0.0072,
+    "strict_x_close": -0.0103,
+    "se": 0.0048,
+    "p": 0.04114
+   },
+   {
+    "outcome": "resid_fav",
+    "strict": -0.0372,
+    "strict_se": 0.02226,
+    "strict_x_close": -0.00721,
+    "se": 0.02383,
+    "p": 0.76458
+   }
+  ],
+  "median_closeness": 0.71346
+ }
+}
