@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T19:10:50+00:00",
+ "generated_at": "2026-11-12T19:22:31+00:00",
  "fouls_goals": {
   "first_stage": 0.46147,
   "first_stage_se": 0.04332,
@@ -444,5 +444,146 @@
    }
   ],
   "median_closeness": 0.71346
+ },
+ "player_cards": {
+  "player_matches": 48871,
+  "players": 1281,
+  "yellows": 6324,
+  "global": {
+   "observed": 1054.82892,
+   "null_mean": 1039.15586,
+   "null_sd": 42.1637,
+   "ratio": 1.01508,
+   "p": 0.34333,
+   "reps": 300,
+   "extreme_observed": 10,
+   "extreme_null_mean": 11.70667,
+   "extreme_p": 0.74333,
+   "tested_pairs": 1538
+  },
+  "stability": {
+   "pairs": 281,
+   "r": -0.0089,
+   "p": 0.88195
+  },
+  "q10": 0,
+  "favoured": [
+   {
+    "referee": "r jones",
+    "player": "Dan Burn",
+    "matches": 12,
+    "O": 0.0,
+    "E": 2.88989,
+    "p": 0.11116
+   },
+   {
+    "referee": "a taylor",
+    "player": "Anthony Gordon",
+    "matches": 12,
+    "O": 0.0,
+    "E": 2.48932,
+    "p": 0.16593
+   },
+   {
+    "referee": "m oliver",
+    "player": "Matty Cash",
+    "matches": 10,
+    "O": 0.0,
+    "E": 2.38661,
+    "p": 0.18388
+   },
+   {
+    "referee": "m oliver",
+    "player": "Adam Smith",
+    "matches": 9,
+    "O": 0.0,
+    "E": 2.359,
+    "p": 0.18903
+   },
+   {
+    "referee": "a taylor",
+    "player": "James Tarkowski",
+    "matches": 11,
+    "O": 0.0,
+    "E": 2.33526,
+    "p": 0.19357
+   },
+   {
+    "referee": "c pawson",
+    "player": "John McGinn",
+    "matches": 10,
+    "O": 0.0,
+    "E": 2.22763,
+    "p": 0.21557
+   }
+  ],
+  "targeted": [
+   {
+    "referee": "j brooks",
+    "player": "Tyrick Mitchell",
+    "matches": 7,
+    "O": 4.0,
+    "E": 1.14285,
+    "p": 0.05805
+   },
+   {
+    "referee": "t harrington",
+    "player": "James Tarkowski",
+    "matches": 8,
+    "O": 5.0,
+    "E": 1.742,
+    "p": 0.06472
+   },
+   {
+    "referee": "m salisbury",
+    "player": "João Victor Gomes da Silva",
+    "matches": 6,
+    "O": 5.0,
+    "E": 1.76659,
+    "p": 0.06808
+   },
+   {
+    "referee": "p tierney",
+    "player": "Jordan Ayew",
+    "matches": 7,
+    "O": 4.0,
+    "E": 1.22572,
+    "p": 0.07209
+   },
+   {
+    "referee": "s attwell",
+    "player": "Adam Smith",
+    "matches": 8,
+    "O": 5.0,
+    "E": 1.81052,
+    "p": 0.07434
+   },
+   {
+    "referee": "a taylor",
+    "player": "Fabio Henrique Tavares",
+    "matches": 5,
+    "O": 5.0,
+    "E": 1.82798,
+    "p": 0.07693
+   }
+  ],
+  "power": [
+   {
+    "effect": "10% of pairs get 2x the cards",
+    "detected": 0.92
+   },
+   {
+    "effect": "5% of pairs get 3x the cards",
+    "detected": 1.0
+   },
+   {
+    "effect": "10% of pairs get half the cards",
+    "detected": 0.25
+   },
+   {
+    "effect": "25% of pairs get 0.6x the cards",
+    "detected": 0.25
+   }
+  ]
  }
 }
