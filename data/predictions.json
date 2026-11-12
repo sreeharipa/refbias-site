@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:39:36+00:00",
+ "generated_at": "2026-11-12T19:09:49+00:00",
  "gw": 11,
  "matches": [
   {
@@ -18,6 +18,9 @@
    "p_away_cs": 0.14159,
    "likely_score": "1-1",
    "p_likely_score": 0.10182,
+   "likely_result": "H",
+   "result_score": "1-0",
+   "p_result_score": 0.10102,
    "grid": [
     [
      0.0517,
@@ -163,6 +166,9 @@
    "p_away_cs": 0.23787,
    "likely_score": "1-1",
    "p_likely_score": 0.11933,
+   "likely_result": "H",
+   "result_score": "1-0",
+   "p_result_score": 0.08795,
    "grid": [
     [
      0.0612,
@@ -308,6 +314,9 @@
    "p_away_cs": 0.18428,
    "likely_score": "1-1",
    "p_likely_score": 0.11366,
+   "likely_result": "H",
+   "result_score": "1-0",
+   "p_result_score": 0.09985,
    "grid": [
     [
      0.059,
@@ -453,6 +462,9 @@
    "p_away_cs": 0.22814,
    "likely_score": "1-1",
    "p_likely_score": 0.11548,
+   "likely_result": "H",
+   "result_score": "2-1",
+   "p_result_score": 0.08533,
    "grid": [
     [
      0.0548,
@@ -598,6 +610,9 @@
    "p_away_cs": 0.26404,
    "likely_score": "1-1",
    "p_likely_score": 0.11845,
+   "likely_result": "A",
+   "result_score": "0-1",
+   "p_result_score": 0.08895,
    "grid": [
     [
      0.0601,
@@ -743,6 +758,9 @@
    "p_away_cs": 0.15494,
    "likely_score": "1-1",
    "p_likely_score": 0.10611,
+   "likely_result": "H",
+   "result_score": "1-0",
+   "p_result_score": 0.10026,
    "grid": [
     [
      0.0538,
@@ -888,6 +906,9 @@
    "p_away_cs": 0.36938,
    "likely_score": "0-1",
    "p_likely_score": 0.12012,
+   "likely_result": "A",
+   "result_score": "0-1",
+   "p_result_score": 0.12012,
    "grid": [
     [
      0.0759,
@@ -1033,6 +1054,9 @@
    "p_away_cs": 0.36522,
    "likely_score": "1-1",
    "p_likely_score": 0.12088,
+   "likely_result": "A",
+   "result_score": "0-1",
+   "p_result_score": 0.12001,
    "grid": [
     [
      0.0773,
@@ -1178,6 +1202,9 @@
    "p_away_cs": 0.14467,
    "likely_score": "1-1",
    "p_likely_score": 0.09901,
+   "likely_result": "H",
+   "result_score": "2-1",
+   "p_result_score": 0.09571,
    "grid": [
     [
      0.0393,
@@ -1323,6 +1350,9 @@
    "p_away_cs": 0.19738,
    "likely_score": "1-1",
    "p_likely_score": 0.11674,
+   "likely_result": "H",
+   "result_score": "1-0",
+   "p_result_score": 0.10221,
    "grid": [
     [
      0.063,
